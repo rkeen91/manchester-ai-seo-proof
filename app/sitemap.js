@@ -12,5 +12,9 @@ export default async function sitemap() {
       url: SITE,
       lastModified: now,
     },
+    {
+      url: `${SITE}/ai-seo-audit-manchester`,
+      lastModified: now,
+    },
   ];
 }

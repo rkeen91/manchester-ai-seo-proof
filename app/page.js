@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
 
 export const metadata = {
@@ -85,6 +87,24 @@ export default function HomePage() {
         easier to understand, and easier to surface when people search for what
         you do.
       </p>
+
+      <section
+        style={{
+          marginTop: 28,
+          padding: 16,
+          border: "1px solid rgba(0,0,0,0.12)",
+          borderRadius: 12,
+        }}
+      >
+        <h2 style={{ marginTop: 0 }}>Start with a focused AI SEO audit</h2>
+        <p>
+          For a more practical next step, see the focused page for{" "}
+          <Link href="/ai-seo-audit-manchester">AI SEO audit Manchester</Link>.
+          It explains how a Manchester business can check page targeting,
+          crawlability, indexation, internal links and content structure before
+          chasing broader AI search visibility.
+        </p>
+      </section>
 
       <section
         style={{
